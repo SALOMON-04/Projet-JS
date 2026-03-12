@@ -119,13 +119,14 @@
 
   //Fonction recursive
 
-//   function multi (a){
-//     if(a <= 1){
-//       return 1
-//     }
-//     return a * multi(a-1)
-//   }
-// console.log(multi(5))
+  // function multi (a){
+  //   if(a>0){
+  //    console.log(a)
+  //    multi(a-1)
+  //   }
+   
+  // }
+  // multi(5)
 
 
 // function multi (a){
@@ -141,14 +142,14 @@
 // }
 // multi(15)
 
-function somme (a){
-    if(a == 1){
-      //console.log(a+1)
-      return 1;
-    }
-    return a + somme(a-1)
-}
-console.log(somme(8))
+// function somme (a){
+//     if(a == 1){
+//       //console.log(a+1)
+//       return 1;
+//     }
+//     return a + somme(a-1)
+// }
+// console.log(somme(8))
 
 
 
@@ -161,3 +162,52 @@ console.log(somme(8))
 // }
 
 // console.log(factorielleIterative(4)); // Affiche 24
+
+
+
+  //LES TABLEAU
+      //tableau simple
+
+         // let tableau = ["un", "bos", "bakan"]
+          //console.log(tableau.join(' ,'))
+          //for(const bac of tableau){
+            //console.log(tableau.indexOf(bac))
+          //}
+
+      //tableau 2 Dimenssion
+
+          //   let tableau=[
+          //     ["bas", "bos", "soa"],
+          //      ["un", "deux", "trois"]
+          //  ]
+             
+          //    console.log(tableau.join(', '))
+
+
+      //tableau Associatif
+         
+              //  let present = {  
+              //       'nom'   : 'regis',
+              //       'genre' : 'Homme',
+              //       'bara'  : 'deputé'
+              //  };
+              //  function concatener (tableau){
+              //   let chaine = '';
+              //   for(const valeur in present) {
+              //       chaine += (valeur + ' : ' + present[valeur] + '\n');
+              //   } 
+              //   console.log(chaine)
+              //  }
+              //  concatener(present)                                                            
+              //  present['status'] = 'ingenieur des maras';  // permet d'ajouté une valeur dans notre tableau associatif
+              //  console.log(present)
+         
+
+     let chien = {
+             race : 'baoulé',
+             poil : 'couleur rousse',
+             crie : () =>console.log('bla bla bla la')
+     }
+         //console.log(chien.poil)
+        chien.crie()
+
