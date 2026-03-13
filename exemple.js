@@ -202,12 +202,21 @@
               //  present['status'] = 'ingenieur des maras';  // permet d'ajouté une valeur dans notre tableau associatif
               //  console.log(present)
          
+      
 
-     let chien = {
-             race : 'baoulé',
-             poil : 'couleur rousse',
-             crie : () =>console.log('bla bla bla la')
-     }
-         //console.log(chien.poil)
-        chien.crie()
+         //LES OBJETS
+ 
+               //Objet simple avec methode(la fonction anonyme)
+                  // let chien = {
+                  //    race : 'baoulé',
+                  //    poil : 'couleur rousse',
+                  //    crie : () =>console.log('bla bla bla la')
+                  //      }
+                  //    //console.log(chien.poil)
+                  //     chien.crie()
 
+
+                  let nombre = ["10", "20", "10", "30", "40", "30"];
+                  let monset = new Map();
+                  //monset.add(["mon", "ma"]);
+                  console.log(monset)
