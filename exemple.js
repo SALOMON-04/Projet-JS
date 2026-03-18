@@ -216,7 +216,129 @@
                   //     chien.crie()
 
 
-                  let nombre = ["10", "20", "10", "30", "40", "30"];
-                  let monset = new Map();
+                  // let nombre = ["10", "20", "10", "30", "40", "30"];
+                  // let monset = new Map();
                   //monset.add(["mon", "ma"]);
-                  console.log(monset)
+                  // console.log(monset)
+
+
+                    //Exo team JS
+
+// let listeMots = ["Cachalot","Pétunia","Serviette"]
+// let listphrase = ["je vous remercie ", " je vais te tapé ", "bonjour cher parents ", "la vie de l'homme " ,"si tu me touche je crie haaaaaaa "]
+// let score = 0
+// let inst = prompt("veuillée entrer le mot suivant " + listeMots[0] )
+// if (inst === listeMots[0] ){
+//   score ++
+//   alert("le mot entrer est exact " + score)
+  
+//  } 
+//  inst = prompt("veuillée entrer le mot suivant " + listeMots[1] )
+//  if (inst === listeMots[1]){
+//   score ++
+//   alert("le mot entrer est exact " + score)
+  
+//  } 
+
+//  inst = prompt("veuillée entrer le mot suivant " + listeMots[2] )
+//  if (inst === listeMots[2]){
+//   score ++
+//   alert("le mot entrer est exact " + score)
+  
+//  } 
+
+//  if (score > 3){
+//   alert("bravo tu as l'aveinir sous tes yeux")
+//  }else{
+
+//   alert("ton papa, tu ne vois pas claire ub " + score)
+  
+// }
+
+// console.log( "Votre score est de " + score)
+
+// let choix
+// while (choix !== "mots" && choix !== "phrase" ) {
+//   choix = prompt("entrer votre choix  entre mots et phrase" )
+// }
+
+// if(choix === "mots"){
+//       for( let i = 0 ; i<listeMots.length  ; i++  ) {
+//          let inst = prompt("choisissez une phrase "  + listeMots[i])
+//           if ( inst === listeMots[i]) {
+//              score ++ 
+//           } 
+   
+//       } 
+// } else { 
+//     for( let i = 0 ; i<listphrase.length  ; i++  ) {
+//          let inst = prompt("choisissez une phrase "  + listphrase[i])
+//           if ( inst === listphrase[i]) {
+//              score ++ 
+//           } 
+   
+//       } 
+// }
+
+
+//  if (score >= 3){
+//       alert("bravo tu as l'avenir sous tes yeux")
+//       }else{
+
+//      alert("ton papa, tu ne vois pas claire ub " + score)
+//        }
+//      console.log( "le score est " + score)
+
+
+
+
+
+
+            //le REST Parameter
+
+
+      //  function multi (...a){
+
+      //   let result = 1 ;
+      //   a.forEach( a => {
+      //     result -= a;
+      //   })
+
+      //   console.log(result)
+
+      //  }
+      //  multi(4 ,34, 22, 430, 30)
+
+
+        //le Spread operateur (permet d'intégré un tableau dans un autre)
+
+
+                  // let tableau = ["un", "bos", "bakan"]
+                  // let tab=["bas", "bos", "soa",...tableau]
+
+                 // console.log(tab)
+
+                  // let colab = tab.concat(tableau)
+                 // console.log(colab)
+
+        
+        
+        
+        //Decoupé un mot ou phrase en chaine de caractère dans un tableau
+
+            let phrase = "bonjour tantie"
+            let tabphrase = [...phrase]
+
+            console.log(tabphrase)
+
+       
+
+
+
+
+
+
+
+
+
+
